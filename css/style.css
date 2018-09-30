@@ -1,0 +1,26 @@
+
+
+/* Main Header */
+#main-header img {
+  height: 100%;
+  width: 100%;
+}
+
+#main-header .bg-black {
+  background-color: black;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3rem !important;
+  }
+}
